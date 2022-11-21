@@ -1,0 +1,25 @@
+public class Van extends Car
+{
+  private int maxLoad;
+
+  public Van(String owner,double price,String regNo,int maxLoad){
+    super(owner, price, regNo);
+    this.maxLoad=maxLoad;
+  }
+
+  public int getMaxLoad()
+  {
+    return maxLoad;
+  }
+
+  public String toString()
+  {
+    return super.toString() + "MaxLoad: " + maxLoad;
+  }
+
+  public boolean equals(Object obj){
+    if (obj==null &&getClass()!=obj.getClass())return false;
+    Van temp=(Van)obj;
+    return super.equals(temp)&&maxLoad==temp.getMaxLoad();
+  }
+}
