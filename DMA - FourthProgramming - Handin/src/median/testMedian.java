@@ -1,6 +1,4 @@
 package median;
-import java.io.*;
-import java.util.*;
 
 public class testMedian
 {

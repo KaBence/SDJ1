@@ -20,6 +20,7 @@ public class random_integers_from_binary
           break;
         }
       }
+      read.close();
     }
     catch (FileNotFoundException e){
       System.out.println("File not found");

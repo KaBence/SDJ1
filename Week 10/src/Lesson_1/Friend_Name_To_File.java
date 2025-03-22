@@ -32,5 +32,6 @@ public class Friend_Name_To_File
     }
     write.close();
     System.out.println("Done writing");
+    k.close();
   }
 }

@@ -25,5 +25,6 @@ public class Friend_name_From_File
       System.out.println(read.nextLine());
     }
     read.close();
+    k.close();
   }
 }

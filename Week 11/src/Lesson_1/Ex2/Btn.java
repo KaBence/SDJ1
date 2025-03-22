@@ -4,8 +4,6 @@ import javafx.scene.control.Button;
 
 public class Btn extends Button
 {
-  private Button button;
-
   public Btn(String text){
    super(text);
    setPrefSize(10,10);

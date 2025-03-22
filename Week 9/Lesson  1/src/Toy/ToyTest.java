@@ -10,6 +10,7 @@ public class ToyTest
     t[2]=new Lego(99,2000);
     for (Toy item:t){
       System.out.println(item.play());
+
     }
   }
 }

@@ -33,5 +33,6 @@ public class random_integers_to_binary
       System.exit(1);
     }
     System.out.println("Done Writing");
+    k.close();
   }
 }

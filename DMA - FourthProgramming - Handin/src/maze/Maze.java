@@ -1,11 +1,5 @@
 package maze;
 
-import java.io.*;
-import java.util.*;
-import java.util.stream.Stream;
-import java.util.LinkedList;
-import java.util.Queue;
-
 public class Maze
 {
   public int shortestPath(char[][] maze)

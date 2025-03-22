@@ -98,5 +98,6 @@ public class Student_test
     else{
       System.out.println("Error in selecting choice");
     }
+    k.close();
   }
 }

@@ -12,5 +12,6 @@ public class AnimalTest
     for (Animal item : a){
       System.out.println(item.speak());
     }
+
   }
 }

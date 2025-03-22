@@ -16,7 +16,7 @@ public class LoadInitialData
 
       try
       {
-         studentArray = MyFileHandler.readArrayFromTextFile("students.txt");
+         studentArray = MyFileHandler.readArrayFromTextFile("Test2/students.txt");
                       
          for(int i = 0; i<studentArray.length; i++)
          {
@@ -36,7 +36,7 @@ public class LoadInitialData
      
       try
       {
-         MyFileHandler.writeToBinaryFile("students.bin", students);
+         MyFileHandler.writeToBinaryFile("Test2/students.bin", students);
       }
       catch (FileNotFoundException e)
       {

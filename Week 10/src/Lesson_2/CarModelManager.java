@@ -5,10 +5,7 @@ import java.io.IOException;
 
 public class CarModelManager
 {
-  private String filename;
-
-  public CarModelManager(String filename){
-    this.filename=filename;
+  public CarModelManager(){
   }
 
   public CarList getAllCars()
